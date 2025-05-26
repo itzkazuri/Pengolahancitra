@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # Baca gambar dan ubah ke grayscale
-img = cv2.imread('image/bird.jpg')
+img = cv2.imread('image/download.jpg')
 gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Tampilkan gambar grayscale
